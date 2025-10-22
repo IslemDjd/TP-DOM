@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Liste de Tâches</title>
+    <style>
+        .task {
+            margin-bottom: 10px;
+        }
+
+        .edit-mode {
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="title">Ma Liste de Tâches</h1>
+
+    <input type="text" id="taskInput" placeholder="Nouvelle tâche...">
+    <button id="addTaskButton">Ajouter</button>
+    <p id="errorMessage" style="color: red;"></p>
+
+    <ul id="taskList"></ul>
+
+    <script src="js/script.js"></script>
+    <!-- <Toaster position="top-center" reverseOrder={false} /> -->
+</body>
+
+</html>
